@@ -26,6 +26,7 @@ header {
   background-position: center;
   height: 100vh;
 }
+
 .hero-text {
   position: absolute;
   color: #fff;
@@ -65,10 +66,10 @@ header {
   display: block;
   float: right;
 }
+
 .box:first-child {
   text-align: left;
   font-size: 19px;
-  /*margin-right: 30px;*/
 }
 
 .box:last-child {
