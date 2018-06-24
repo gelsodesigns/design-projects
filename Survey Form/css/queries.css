@@ -1,0 +1,53 @@
+/* -------------------------------------------*/
+/* MEDIA QUERIES */
+/* -------------------------------------------*/
+@media only screen and (max-width: 1350px) {
+	header {
+		height: 400px;
+	}
+	
+	h1 {
+		padding-top: 4%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#survey-form {
+		min-width: 70%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	header {
+		height: 300px;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(https://images.unsplash.com/photo-1491956142110-8a4226a12077?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9d65bd7937511c934d4b450d31f2c1ec&auto=format&fit=crop&w=1050&q=80);
+	}
+	
+	h1 {
+	padding-top: 7%;
+	font-size: 40px;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-weight: 200;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	header {
+		height: 200px;
+	}
+	
+	h1 {
+	padding-top: 1%;
+	font-size: 30px;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: 200;
+		margin-top :0;
+	}
+}
